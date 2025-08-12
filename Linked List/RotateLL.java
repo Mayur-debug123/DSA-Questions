@@ -1,15 +1,15 @@
-/* node of linked list:
 
-class Node{
+
+
+class  RotateLL{
+    class Node{
     int data;
     Node next;
     Node(int d){
         data=d;
         next=null;
     }
-} */
-
-class Solution {
+}
     public Node rotate(Node head, int k) {
         
         int len = listLength(head);
